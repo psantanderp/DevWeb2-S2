@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <!-- Se define codificación de caracteres-->
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <!-- Se establece la etiqueta viewport para indicar la escala del ancho que se debe considerar-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0; user-scalable=0;">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <!-- Se define hoja de estilos externa-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Se define hoja de estilos externa-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+    <link rel="stylesheet" type="text/css" href="formato.css">
+    <title>Libro de ejercicios</title>
+  </head>
+  <body>
+    <!-- Se implementa una estructura que sea mas actualizada y acorde con HTML5 -->
+    <!-- Se estrucura la pagina en forma de cajas, donde la paginación se agrega a una caja header-->
+    <header class="encabezado">
+      <h1>Desarrollo Web II - S2</h1>
+    </header>
+    <!-- Se seccionan los contenidos agrupandolos en una gran caja con las etiquetas section y la clase contenido -->
+    <section class="contenido">
+      <!-- Se utiliza la estructura de rejilla dentro de contenido, para cada caja con sus tipos de columnas -->
+      <article class="row show-grid">
+        <div class="col-md-4">
+            <h2>Primer párrafo</h2>
+            <p>
+            "Aliquam vestibulum, velit vel facilisis rutrum, purus risus tristique magna, et vulputate orci elit sed nisi. In placerat nulla sed sagittis
+            pharetra. Donec vel massa nisi. Mauris scelerisque ullamcorper efficitur. Curabitur id sem mauris. Donec tristique pretium enim quis
+            tincidunt. Praesent imperdiet metus vel gravida venenatis. Duis egestas nisi pharetra, elementum mi sit amet, tempor arcu. Suspendisse
+            nulla est, dictum quis est nec, pharetra semper quam. Cras rhoncus sit amet augue sit amet pellentesque. Sed gravida vehicula feugiat."
+          </p>
+        </div>
+          <div class="col-md-4">
+              <h2>Segundo párrafo</h2>
+              <p>
+              "Sed vel molestie risus. Phasellus pulvinar eros et mauris viverra dictum. Morbi porttitor molestie dictum. Fusce vitae mattis enim. Sed in
+              sem a ipsum feugiat volutpat. Cras et varius lectus. Mauris suscipit hendrerit eleifend. Mauris nec tempor leo. Pellentesque egestas
+              tincidunt congue."
+            </p>
+          </div>
+          <div class="col-md-4">
+              <h2>Tercer párrafo</h2>
+              <p>
+              "Morbi sed vestibulum magna. Pellentesque in dignissim diam, vehicula euismod augue. Quisque felis velit, dapibus sit amet neque id,
+              tempor malesuada elit. Quisque tempus enim felis, non porttitor urna ultricies sed. Ut volutpat sed sem sed suscipit. Nunc posuere nunc
+              at luctus tempus. Morbi semper pretium placerat. Nunc eu tincidunt leo. Ut eleifend lorem id ex faucibus convallis. Proin iaculis dapibus
+              volutpat. Duis eget ex quam. Donec sit amet ligula consequat ante rutrum posuere in sed sem. Nam in augue lobortis, pulvinar sem quis,
+              vehicula nulla. Mauris eu tempus dui, non venenatis orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+              curae;"
+            </p>
+          </div>
+      </article>
+      <!-- Se estrucura la página en forma de cajas, se implementa la estructura de tablas responsive para elementos de tamaño medio a mayores-->
+      <div class="table-responsive-md">
+        <h2>Estado de Ejecución Presupuestaria</h2>
+          <!-- Se estrucura la tabla de formato de colores por cada fila -->
+          <!-- Se agrega a la tabla un ejemplo de reportabilidad del sistema de información para la Gestión Financiera del Estado SIGFE-->
+
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Id Unidad Ejecutora</th>
+              <th scope="col">Descripción Unidad Ejecutora</th>
+              <th scope="col">Subtítulo Presupuestario</th>
+              <th scope="col">Código Concepto</th>
+              <th scope="col">Descripción del Concepto</th>
+              <th scope="col">Código Insumo</th>
+              <th scope="col">Descripción del Insumo</th>
+              <th scope="col">Catálogo Productos</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>2801001</td>
+              <td>Nivel Central</td>
+              <td>22 Bienes y Servicios de Consumo</td>
+              <td>2212999</td>
+              <td>Otros Gastos en Bienes y Servicios de Consumo</td>
+              <td>Sin Insumo</td>
+              <td>Sin Insumo</td>
+              <td>00 Sin Aplicación</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>2801002</td>
+              <td>Dirección II Región Antofagasta</td>
+              <td>22 Bienes y Servicios de Consumo</td>
+              <td>2212999</td>
+              <td>Otros Gastos en Bienes y Servicios de Consumo</td>
+              <td>Sin Insumo</td>
+              <td>Sin Insumo</td>
+              <td>00 Sin Aplicación</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>2801003</td>
+              <td>Dirección III Región Atacama</td>
+              <td>24 Transferencias Corrientes</td>
+              <td>2403002</td>
+              <td>Elección Presidencial y Parlamentaria</td>
+              <td>40204077</td>
+              <td>Otros Gastos en Bienes y Servicios de Consumo</td>
+              <td>10 Presidenciales y Parlamentarias</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>2801004</td>
+              <td>Dirección IV Región Coquimbo</td>
+              <td>24 Transferencias Corrientes</td>
+              <td>2403002</td>
+              <td>Elección Presidencial y Parlamentaria</td>
+              <td>40204077</td>
+              <td>Otros Gastos en Bienes y Servicios de Consumo</td>
+              <td>10 Presidenciales y Parlamentarias</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>2801005</td>
+              <td>Dirección V Región Valparaíso</td>
+              <td>24 Transferencias Corrientes</td>
+              <td>2403002</td>
+              <td>Elección Presidencial y Parlamentaria</td>
+              <td>40204077</td>
+              <td>Otros Gastos en Bienes y Servicios de Consumo</td>
+              <td>10 Presidenciales y Parlamentarias</td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>2801006</td>
+              <td>Dirección VI Región O'Higgins</td>
+              <td>22 Bienes y Servicios de Consumo</td>
+              <td>2212999</td>
+              <td>Otros Gastos en Bienes y Servicios de Consumo</td>
+              <td>Sin Insumo</td>
+              <td>Sin Insumo</td>
+              <td>00 Sin Aplicación</td>
+            </tr>
+            <tr>
+              <th scope="row">7</th>
+              <td>2801007</td>
+              <td>Dirección VII Región del Maule</td>
+              <td>24 Transferencias Corrientes</td>
+              <td>2403002</td>
+              <td>Elección Presidencial y Parlamentaria</td>
+              <td>40204077</td>
+              <td>Otros Gastos en Bienes y Servicios de Consumo</td>
+              <td>10 Presidenciales y Parlamentarias</td>
+            </tr>
+            <tr>
+              <th scope="row">8</th>
+              <td>2801008</td>
+              <td>Dirección VIII Región del Bio Bío</td>
+              <td>22 Bienes y Servicios de Consumo</td>
+              <td>2212999</td>
+              <td>Otros Gastos en Bienes y Servicios de Consumo</td>
+              <td>Sin Insumo</td>
+              <td>Sin Insumo</td>
+              <td>00 Sin Aplicación</td>
+            </tr>
+            <tr>
+              <th scope="row">9</th>
+              <td>2801009</td>
+              <td>Dirección IX Región de la Araucanía</td>
+              <td>22 Bienes y Servicios de Consumo</td>
+              <td>2212999</td>
+              <td>Otros Gastos en Bienes y Servicios de Consumo</td>
+              <td>Sin Insumo</td>
+              <td>Sin Insumo</td>
+              <td>00 Sin Aplicación</td>
+            </tr>
+            <tr>
+              <th scope="row">10</th>
+              <td>2801010</td>
+              <td>Dirección X Región de Los Lagos</td>
+              <td>22 Bienes y Servicios de Consumo</td>
+              <td>2212999</td>
+              <td>Otros Gastos en Bienes y Servicios de Consumo</td>
+              <td>Sin Insumo</td>
+              <td>Sin Insumo</td>
+              <td>00 Sin Aplicación</td>
+            </tr>
+            <tr>
+              <th scope="row">11</th>
+              <td>2801011</td>
+              <td>Dirección XI Región de Aysén</td>
+              <td>22 Bienes y Servicios de Consumo</td>
+              <td>2212999</td>
+              <td>Otros Gastos en Bienes y Servicios de Consumo</td>
+              <td>Sin Insumo</td>
+              <td>Sin Insumo</td>
+              <td>00 Sin Aplicación</td>
+            </tr>
+            <tr>
+              <th scope="row">12</th>
+              <td>2801012</td>
+              <td>Dirección XII Región de Magallanes</td>
+              <td>22 Bienes y Servicios de Consumo</td>
+              <td>2212999</td>
+              <td>Otros Gastos en Bienes y Servicios de Consumo</td>
+              <td>Sin Insumo</td>
+              <td>Sin Insumo</td>
+              <td>00 Sin Aplicación</td>
+            </tr>
+            <tr>
+              <th scope="row">13</th>
+              <td>2801013</td>
+              <td>Dirección Región Metropolitana</td>
+              <td>24 Transferencias Corrientes</td>
+              <td>2403002</td>
+              <td>Elección Presidencial y Parlamentaria</td>
+              <td>40204077</td>
+              <td>Otros Gastos en Bienes y Servicios de Consumo</td>
+              <td>10 Presidenciales y Parlamentarias</td>
+            </tr>
+            <tr>
+              <th scope="row">14</th>
+              <td>2801014</td>
+              <td>Dirección XIV Región de Los Ríos</td>
+              <td>22 Bienes y Servicios de Consumo</td>
+              <td>2212999</td>
+              <td>Otros Gastos en Bienes y Servicios de Consumo</td>
+              <td>Sin Insumo</td>
+              <td>Sin Insumo</td>
+              <td>00 Sin Aplicación</td>
+            </tr>
+            <tr>
+              <th scope="row">15</th>
+              <td>2801015</td>
+              <td>Dirección XV Región de Arica y Parinacota</td>
+              <td>22 Bienes y Servicios de Consumo</td>
+              <td>2212999</td>
+              <td>Otros Gastos en Bienes y Servicios de Consumo</td>
+              <td>Sin Insumo</td>
+              <td>Sin Insumo</td>
+              <td>00 Sin Aplicación</td>
+            </tr>
+            <tr>
+              <th scope="row">16</th>
+              <td>2801016</td>
+              <td>Dirección XVI Región del Ñuble</td>
+              <td>24 Transferencias Corrientes</td>
+              <td>2403002</td>
+              <td>Elección Presidencial y Parlamentaria</td>
+              <td>40204077</td>
+              <td>Otros Gastos en Bienes y Servicios de Consumo</td>
+              <td>10 Presidenciales y Parlamentarias</td>
+            </tr>
+            <tr>
+              <th scope="row">17</th>
+              <td>2801017</td>
+              <td>Dirección I Región Tarapacá</td>
+              <td>24 Transferencias Corrientes</td>
+              <td>2403002</td>
+              <td>Elección Presidencial y Parlamentaria</td>
+              <td>40204077</td>
+              <td>Otros Gastos en Bienes y Servicios de Consumo</td>
+              <td>10 Presidenciales y Parlamentarias</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- Se estrucura el contenedor del elemento emergente modal -->
+      <div class="contenido">
+        <!-- Se establece un botón como launcher o de ejecución del evento -->
+        <button class="btn btn-primary" data-toggle="modal" data-target="#TestModal">
+          Iniciar Test Modal
+        </button>
+        <!-- Se establece el elemento modal con un header, body y footer -->
+        <div class="modal fade" tabindex="-1" role="dialog" id="TestModal">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h6 class="modal-title">Elemento Emergente</h6>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h6>Esta es una prueba de un elemento emergente o cuadro de dialogo de modal</h6>
+              </div>
+              <div class="modal-footer">
+                <!-- Se establecen los 3 botones solicitados en el control -->
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Envíar</button>
+                <button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Se agregan las librerias de jQuery que nos sirven para trabajar con los elementos @media en nuestras hojas-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
